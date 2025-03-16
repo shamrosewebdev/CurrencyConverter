@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <label for="input">Please enter the amount in PKR</label>
+        <div class="input">
+          <input type="number" />
+        </div>
+        <div class="output">
+          <p>Here is your amount in USD</p>
+          <input type="number" readonly/>
+        </div>
+        <div class="options">
+          <div class="from">
+            <p>From</p>
+            <div class="box">
+              <img src="https://flagsapi.com/PK/flat/64.png" />
+              <select name="from" id="from">
+              </select>
+            </div>
+          </div>
+          <div class="shuffle"><i class="fa-solid fa-repeat"></i></div>
+          <div class="from">
+            <p>To</p>
+            <div class="box">
+              <img src="https://flagsapi.com/US/flat/64.png" />
+              <select name="to" id="to">
+              </select>
+            </div>
+          </div>
+        </div>
+        <button class="btn">CONVERT</button>
+      </form>
+      <div class="message"><p>1 PKR equals to 270 USD</p></div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
