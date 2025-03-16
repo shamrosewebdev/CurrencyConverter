@@ -20,17 +20,17 @@ Select the currencies to convert.
 
 Click the Convert button to get the result.
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 
-**HTML for structure**
+HTML for structure
 
 CSS for styling and responsiveness
 
 JavaScript for dynamic functionality and API integration
 
-🔧 Installation & Setup
+**🔧 Installation & Setup**
 
-**Clone the repository:**
+Clone the repository:
 
 git clone https://github.com/your-username/currency-converter.git
 
